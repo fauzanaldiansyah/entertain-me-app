@@ -1,6 +1,13 @@
 ## Week-2 Day 4
 
-- kerjakan di folder `server/express`
+- Challenge Pagi
+
+  - kerjakan di folder `server/express`
+  
+- Challenge Siang
+
+  - kerjakan di folder `server/movies`, aplikasi berupa express
+  - kerjakan di folder `server/series`, aplikasi berupa express
 
 ## Week-2 Day 5
 
