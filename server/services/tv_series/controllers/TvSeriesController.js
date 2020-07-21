@@ -45,7 +45,7 @@ class TvSeriesController {
     static delete(req,res,next){
         TvSeries.findByIdDelete(req.params.id)
         .then(result => {
-            res.status(200).json(result)
+            res.status(200).json({message: `Tv Series successfully deleted`})
         })
         .catch(err => {
             console.log(err)

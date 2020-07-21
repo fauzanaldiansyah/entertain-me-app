@@ -45,7 +45,7 @@ class MoviesController {
     static delete(req,res,next){
         Movies.findByIdDelete(req.params.id)
         .then(result => {
-            res.status(200).json(result)
+            res.status(200).json({message: `Movie successfully deleted`})
         })
         .catch(err => {
             console.log(err)
